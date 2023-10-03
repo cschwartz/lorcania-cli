@@ -1,0 +1,55 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Cookie:
+      - XSRF-TOKEN=DUMMY; lorcania_lorcana_cards_decks_collection_news_and_prices_session=DUMMY
+      User-Agent:
+      - python-requests/2.31.0
+      X-XSRF-TOKEN:
+      - DUMMY
+    method: GET
+    uri: https://lorcania.com/api/collection
+  response:
+    body:
+      string: '{"collection":{"80":{"regular":{"user_id":6114,"card_id":80,"edition_id":3,"language":"EN","quantity":2}},"178":{"regular":{"user_id":6114,"card_id":178,"edition_id":3,"language":"EN","quantity":1},"foil":{"user_id":6114,"card_id":178,"edition_id":4,"language":"EN","quantity":2}},"39":{"op":{"user_id":6114,"card_id":39,"edition_id":7,"language":"EN","quantity":1}}}}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 30 Sep 2023 19:47:09 GMT
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Set-Cookie:
+      - XSRF-TOKEN=DUMMY; expires=Sat, 30 Sep 2023 21:47:09 GMT; Max-Age=7200; Path=/;
+        SameSite=lax
+      - lorcania_lorcana_cards_decks_collection_news_and_prices_session=DUMMY; expires=Sat,
+        30 Sep 2023 21:47:09 GMT; HttpOnly; Max-Age=7200; Path=/; SameSite=lax
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - X-Inertia, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1
