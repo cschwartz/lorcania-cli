@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "lorcania-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "A CLI tool to access https://lorcania.com"
 authors = ["Christian Schwartz <christian.schwartz@gmail.com>"]
 license = "LGPL-3.0-only"
 repository = "https://github.com/cschwartz/lorcania-cli"
+readme = "README.md"
 
 [tool.poetry.scripts]
 lorcania-cli = "lorcania_cli.main:app"
