@@ -59,7 +59,7 @@ $ lorcania-cli collection show --out-file my-collection.xlsx
 
 # Test
 
-To test lorcania-cli, use `pytest`.
+To test lorcania-cli, use `poetry run pytest -v`.
 In order to don't waste Lorcania resources, a vcr.py suite is included for an account with the following collection:
 
 - _Mickey Mouse Detective_ (Promo): 1x
